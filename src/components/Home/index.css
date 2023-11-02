@@ -1,0 +1,24 @@
+.home-container {
+  height: 90vh;
+}
+.home-responsive-container {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 25px;
+}
+.tabs-container {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  padding-left: 0;
+  overflow-y: auto;
+}
+.dishes-container{
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  padding-left: 0;
+}

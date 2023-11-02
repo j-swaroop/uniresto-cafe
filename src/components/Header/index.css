@@ -1,0 +1,29 @@
+.header-container {
+  height: 10vh;
+}
+.header-responsive-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  margin: auto;
+}
+.restaurent-heading {
+  font-family: 'Roboto';
+  font-size: 26px;
+}
+.cart-container {
+  display: flex;
+  align-items: center;
+}
+.cart-heading {
+  font-family: 'Roboto';
+  font-size: 16px;
+  margin-right: 10px;
+  font-weight: 500;
+}
+@media (max-width: 576px){
+  .cart-heading{
+    display: none;
+  }
+}
